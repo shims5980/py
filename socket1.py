@@ -7,8 +7,8 @@ tk.geometry("1000x1000")
 entry = tkinter.Entry(tk)
 entry2 = tkinter.Listbox(tk, height = 15, width = 50)
 #HOST = '192.168.214.51'
-HOST = '192.168.214.24'
-#HOST = '172.29.183.1'
+#HOST = '192.168.214.24'
+HOST = '172.29.183.1'
 PORT = 9900
 
 def rcvMsg(sock):
